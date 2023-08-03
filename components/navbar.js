@@ -78,6 +78,7 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="https://www.Fmscout.com/">Fmscout</LinkItem>
+          <LinkItem href="https://www.playgm.cn/">Playgm</LinkItem>
 
         </Stack>
 
@@ -98,6 +99,9 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://www.fmscout.com/">
                   Fmscout
+                </MenuItem>
+                  <MenuItem as={MenuLink} href="https://www.playgm.cn/">
+                  Playgm
                 </MenuItem>
                 
               </MenuList>
